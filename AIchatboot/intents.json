@@ -1,0 +1,175 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Good morning",
+          "Good afternoon"
+        ],
+        "responses": [
+          "Hello! Welcome to Anupam Automobiles. How can I help you?",
+          "Hi there! Welcome to Anupam Automobiles. How can I assist you today?",
+          "Hey! Welcome to Anupam Automobiles. How can I help you with your bike inquiries?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later",
+          "Catch you later"
+        ],
+        "responses": [
+          "Goodbye! Ride safe!",
+          "See you later! If you need anything else, just ask.",
+          "Bye! Feel free to reach out if you have more questions."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "I appreciate it",
+          "Thanks a lot"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Happy to help!",
+          "No problem, glad I could assist."
+        ]
+      },
+      {
+        "tag": "bike_info",
+        "patterns": [
+          "Tell me about the latest models",
+          "Show me the newest bikes",
+          "What new bikes do you have?",
+          "Latest bike models"
+        ],
+        "responses": [
+          "Here are our latest models: [link to latest models]",
+          "Check out our newest bikes here: [link to latest models]",
+          "You can find information on our latest bike models here: [link to latest models]"
+        ]
+      },
+      {
+        "tag": "schedule_service",
+        "patterns": [
+          "I need to schedule a service",
+          "Book a maintenance appointment",
+          "Service my bike",
+          "Bike service scheduling"
+        ],
+        "responses": [
+          "You can schedule your service appointment here: [link to service scheduling]",
+          "Book your bike maintenance here: [link to service scheduling]",
+          "Schedule a service for your bike using this link: [link to service scheduling]"
+        ]
+      },
+      {
+        "tag": "parts_availability",
+        "patterns": [
+          "Do you have spare parts for my bike?",
+          "I need a replacement part",
+          "Check parts availability",
+          "Bike parts in stock"
+        ],
+        "responses": [
+          "You can check the availability of parts here: [link to parts availability]",
+          "Find the replacement parts you need here: [link to parts availability]",
+          "Check if we have the bike parts in stock here: [link to parts availability]"
+        ]
+      },
+      {
+        "tag": "dealership_locations",
+        "patterns": [
+          "Where is the nearest dealership?",
+          "Find a dealership near me",
+          "Bike dealership locations",
+          "Nearest bike dealership"
+        ],
+        "responses": [
+          "You can find the nearest dealership here: [link to dealership locator]",
+          "Locate the closest dealership to you here: [link to dealership locator]",
+          "Find a bike dealership near you using this link: [link to dealership locator]"
+        ]
+      },
+      {
+        "tag": "financing_options",
+        "patterns": [
+          "Tell me about your financing options",
+          "Do you offer bike loans?",
+          "Bike financing",
+          "Bike financing plans"
+        ],
+        "responses": [
+          "Learn about our financing options here: [link to financing options]",
+          "We offer various bike loans and financing plans. Check them out here: [link to financing options]",
+          "You can find information on our bike financing options here: [link to financing options]"
+        ]
+      },
+      {
+        "tag": "test_ride",
+        "patterns": [
+          "I want to schedule a test ride",
+          "Book a test ride",
+          "Test ride a bike",
+          "Bike test ride appointment"
+        ],
+        "responses": [
+          "Schedule your test ride here: [link to test ride scheduling]",
+          "Book a test ride for your preferred bike here: [link to test ride scheduling]",
+          "You can schedule a test ride appointment here: [link to test ride scheduling]"
+        ]
+      },
+    {
+        
+        "tag": "Owner Datails",
+        "patterns": [
+          "I want to know the location of your Business",
+          "Contact Info"
+          
+        ],
+        "responses": [
+          "Location of Business is : https://www.google.com/maps/place/ANUPAM+AUTOMOBILES/@26.9165926,81.2914171,17z/data=!3m1!4b1!4m6!3m5!1s0x399963e455a381f5:0x4a9b74b1680c8266!8m2!3d26.9165878!4d81.293992!16s%2Fg%2F11mv5wz4d9?entry=ttu",
+          "Contact using this link: [link to test ride scheduling]"
+          
+        ]
+
+    },
+      {
+        "tag": "warranty_info",
+        "patterns": [
+          "Tell me about the bike warranty",
+          "What is covered under warranty?",
+          "Bike warranty details",
+          "Bike warranty information"
+        ],
+        "responses": [
+          "Find out about our bike warranty here: [link to warranty info]",
+          "You can check what is covered under our warranty here: [link to warranty info]",
+          "Get details on our bike warranty here: [link to warranty info]"
+        ]
+      },
+      {
+        "tag": "fallback",
+        "patterns": [
+          "I need help",
+          "Can you assist me?",
+          "Help me with something",
+          "I have a question"
+        ],
+        "responses": [
+          "I'm not sure how to help with that. Can you provide more details?",
+          "Could you please clarify your question?",
+          "I'm here to assist you. Can you give me more information about your request?"
+        ]
+      }
+    ]
+  }
+  
